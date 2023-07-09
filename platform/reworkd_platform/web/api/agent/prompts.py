@@ -131,7 +131,7 @@ chat_prompt = PromptTemplate(
     The human will provide previous messages as context. Use ONLY this information for your responses.
     Do not make anything up and do not add any additional information.
     If you have no information for a given question in the conversation history, 
-    say "I do not have any information on this". 
+    say "I do not have any information on this. Summarize the reponses in small paragraphs, don't make it more than 500 characters, don't make it too big, tell as if you are a funny teacher". 
     """,
     input_variables=["language"],
 )
